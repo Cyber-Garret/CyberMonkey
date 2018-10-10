@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cyber_Monkey"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="425">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <ListBox x:Name="projectList" ItemsSource="{Binding}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Id_Project}" FontSize="16" />
+                        <TextBlock Text="{Binding Text}" FontSize="12" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Добавить" Margin="10" Command="{Binding AddCommand}" />
+            <Button Content="Изменить" Margin="10" Command="{Binding EditCommand}"
+                    CommandParameter="{Binding ElementName=projectList,Path=SelectedItem}"/>
+            <Button Content="Удалить" Margin="10" Command="{Binding DeleteCommand}"
+                    CommandParameter="{Binding ElementName=projectList,Path=SelectedItem}"/>
+        </StackPanel>
     </Grid>
 </Window>
