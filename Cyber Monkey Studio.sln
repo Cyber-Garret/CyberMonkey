@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyber Monkey Studio", "Cyber Monkey Studio\Cyber Monkey Studio.csproj", "{F888EB70-AC3A-45D0-A445-2BDDAA4E7C6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cyber Monkey", "Cyber Monkey\Cyber Monkey.csproj", "{292DF62B-7859-42A7-BACE-FC093A145EA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F888EB70-AC3A-45D0-A445-2BDDAA4E7C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F888EB70-AC3A-45D0-A445-2BDDAA4E7C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F888EB70-AC3A-45D0-A445-2BDDAA4E7C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292DF62B-7859-42A7-BACE-FC093A145EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292DF62B-7859-42A7-BACE-FC093A145EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292DF62B-7859-42A7-BACE-FC093A145EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292DF62B-7859-42A7-BACE-FC093A145EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

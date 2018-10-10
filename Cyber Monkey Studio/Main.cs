@@ -16,11 +16,11 @@ namespace Cyber_Monkey_Studio
 {
     public partial class MainForm : Form
     {
-        string Mykey = "2747ff93-d756-44bf-8632-f4dade926f4f";
+        string Mykey = "GPC_API_KEY";
         string betaUrl = "http://ua4.jooble.com:4080/GlobalControl";
         string prodUrl = "http://ua4.jooble.com:85/GlobalControl";
         string sqlite_conn = "Data Source=Monkey.db; Version=3;";
-        string sql_conn = "Data Source=ua4.jooble.com;Persist Security Info=True;User ID=ra;Password=Pok3nulNewr";
+        string sql_conn = "Data Source=ua4.jooble.com;Persist Security Info=True;User ID=USER_ID;Password=USER_PASSWORD";
 
         public MainForm()
         {
